@@ -1,8 +1,13 @@
+import Hero from '../components/Hero/Hero';
+import InfoGrid from '../components/InfoGrid/InfoGrid';
+import MainContent from '../components/MainContent/MainContent';
+
 function Home() {
   return (
-    <div>
-      <h1>Inicio</h1>
-      <p>Bienvenido a la página principal 🚀</p>
+    <div className="brutalist-container b-left b-right">
+      <Hero />
+      <InfoGrid />
+      <MainContent />
     </div>
   );
 }
